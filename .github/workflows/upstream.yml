@@ -16,7 +16,7 @@ jobs:
     if: github.repository == 'idrblab/socube-apidoc'
     strategy:
       matrix:
-        branch: ["main", "gh-pages"]
+        branch: ["main"]
     steps:
       - uses: actions/checkout@v3
 
